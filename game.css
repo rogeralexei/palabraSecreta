@@ -1,0 +1,86 @@
+body{
+    font-family: 'Oswald';
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title{
+    font-weight: 700;
+    font-size: 7rem;
+    margin-bottom: 0;
+    line-height: .8em;
+}
+
+#head{
+    background-color: #4143cc;
+    padding-bottom: 10px;
+    color: white;
+    line-height: 3rem;
+}
+
+#sep{
+    background-color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h4{
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+input{
+    font-size: 50px;
+    border-radius:20px;
+    outline: none;
+    padding-left: 15px;
+}
+
+#form{
+    margin-top: 5%;
+}
+
+h1{
+    margin: 0;
+}
+
+button{
+    padding: 0.6em 2em;
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+}
+
+#image{
+    background-color: #cc4641;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 40px;
+    -webkit-box-shadow: 1px -1px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 20px -6px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 20px -6px rgba(0,0,0,0.75);
+    display: none;
+    transition: background-color 0.6s;
+    -webkit-transition:background-color 0.6s;
+    -moz-transition:background-color 0.6s;
+}
+p{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: 'Raleway';
+ }
